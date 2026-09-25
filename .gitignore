@@ -1,0 +1,11 @@
+# Konfigurasi lokal dan kredensial database.
+.env
+
+# Dependency yang dapat dipasang ulang dari composer.lock.
+/vendor/
+
+# Berkas runtime CodeIgniter.
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+/writable/debugbar/*
